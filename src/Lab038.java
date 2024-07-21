@@ -3,6 +3,7 @@ public class Lab038 {
         String password  = "Pramod@123";
         String pass_u = password.toLowerCase();
         System.out.println(pass_u);
+
         // pass_u == password
         System.out.println(pass_u == password);
         System.out.println(pass_u.equals(password));
